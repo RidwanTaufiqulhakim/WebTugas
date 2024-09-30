@@ -1,0 +1,178 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #ff9900;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 1.5em;
+  color: white;
+}
+
+header nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  background: url('foto/IMG_20240507_094805-fotor-2024050795642.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.banner h1 {
+  font-size: 2.5em;
+  margin: 0 0 20px 0;
+}
+
+.banner button {
+  background-color: #ff9900;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.banner button:hover {
+  background-color: #e68a00;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card button {
+  background-color: #ff9900;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #e68a00;
+}
+
+.faq {
+  padding: 20px;
+  background: white;
+  text-align: center;
+}
+
+.faq h2 {
+  margin-top: 0;
+}
+
+.faq-item {
+  background: #ffebcc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.faq-item:hover {
+  background: #ffe0b3;
+}
+
+.subscriptions {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.package {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+}
+
+.package h3 {
+  margin-top: 0;
+}
+
+.package ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.package ul ul {
+  margin: 10px 0 10px 20px;
+}
+
+.package button {
+  background-color: #0066cc;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.package button:hover {
+  background-color: #005bb5;
+}
+
+.bronze {
+  background-color: #f2dede;
+}
+
+.silver {
+  background-color: #d9edf7;
+}
+
+.gold {
+  background-color: #fcf8e3;
+}
+
+
+.footer-content {
+  background-color: #ff9900;
+  color: white;
+  text-align: center;
+  padding: 10px 50px 10px 50px;
+}
+
+.footer-bottom {
+  background-color: #ff9900;
+  color: white;
+  text-align: right;
+padding: 0px 0px 0px 10px;}

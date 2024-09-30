@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ff9900;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.subscription-section {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.subscription-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.subscription-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.package {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.package h3 {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    margin: -20px -20px 10px -20px;
+}
+
+.package ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.package ul ul {
+    margin-left: 20px;
+}
+
+.package button {
+    background-color: #ff9900;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.package button:hover {
+    background-color: #e68a00;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+footer .footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+footer .footer-bottom {
+    padding: 10px;
+    background-color: #222;
+}
